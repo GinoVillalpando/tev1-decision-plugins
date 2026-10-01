@@ -1,0 +1,18 @@
+{
+  "name": "tev1-decision-plugins",
+  "owner": {
+    "name": "Gino Villalpando",
+    "email": "GinoVillalpandoWork@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-model-router",
+      "source": {
+        "source": "github",
+        "repo": "GinoVillalpando/claude-model-router",
+        "ref": "main"
+      },
+      "description": "A Claude Code plugin that sends each delegated subagent task to the cheapest Claude model that can handle it. The main session's model never changes. The choice is made by a local Ollama decision model, tev1."
+    }
+  ]
+}
